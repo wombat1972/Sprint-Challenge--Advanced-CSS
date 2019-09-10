@@ -1,1 +1,21 @@
 // Mixins Here
+
+.bordered(){
+    border: 2px solid @nav-border;
+}
+
+.rounded(){
+    border-radius: 5px;
+}
+
+.buttonStyle(@color; @pad; @rad; @fsize; @fcolor){
+    background-color: @color;
+    padding: @pad;
+    border-radius: @rad;
+    font-size: @fsize;
+    color: @fcolor;
+}
+
+.phone(){
+    max-width: 500px;
+}
